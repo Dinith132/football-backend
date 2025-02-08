@@ -18,6 +18,7 @@ public class PlayerService {
     }
 
     public List<Player> getPlayers(){
+        System.out.println("=======================================================================================");
         return playerRepository.findAll();
     }
 

@@ -45,6 +45,9 @@ public class Player {
         this.team = team;
     }
 
+    public Player() {
+    }
+
     public String getName() {
         return name;
     }
